@@ -27,4 +27,6 @@ python.save()
 .then(function(result) {
   console.log("Saved", result);
 })
-.catch()
+.catch(function() {
+  console.log("Error");
+});
